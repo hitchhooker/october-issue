@@ -1,0 +1,234 @@
+1767  git init
+ 1768  echo "# octobercms" >> README.md
+ 1769  git init
+ 1770  git add README.md
+ 1771  git commit -m "first commit"
+ 1772  git remote add origin git@github.com:ridesustainable/octobercms.git
+ 1773  git push -u origin master
+ 1774  ls
+ 1775  git push
+ 1776  ls
+ 1777  micro .gitignore 
+ 1778  ls
+ 1779  git add *
+ 1780  ls
+ 1781  git push
+ 1782  git commit -m "add octobercms" 
+ 1783  git push
+ 1784  php artisan october:install
+ 1785  cd ..
+ 1786  rm ride.rotko.net/
+ 1787  rm -rf ride.rotko.net/
+ 1788  ls
+ 1789  git clone git@github.com:ridesustainable/october.git
+ 1790  cd october/
+ 1791  ls
+ 1792  composer update
+ 1793  ls
+ 1794  cd plugins/
+ 1795  ls
+ 1796  cd ..
+ 1797  ls
+ 1798  cd themes/
+ 1799  ls
+ 1800  cp /var/www/rotko.net/themes/rideco/
+ 1801  cp -rf /var/www/rotko.net/themes/rideco/
+ 1802  cp -r /var/www/rotko.net/themes/rideco/
+ 1803  cp -r /var/www/rotko.net/themes/rideco/ .
+ 1804  ls
+ 1805  cd rideco/
+ 1806  ls
+ 1807  cd ..
+ 1808  git commit -m "add ride.co theme"
+ 1809  git add *
+ 1810  git commit -m "add ride.co theme"
+ 1811  git push
+ 1812  ls
+ 1813  php artisan 
+ 1814  php artisan october:env
+ 1815  php artisan october:update
+ 1816  php artisan october:up
+ 1817  php artisan october:install
+ 1818  ls
+ 1819  micro .env 
+ 1820  php artisan 
+ 1821  php artisan key:generate
+ 1822  micro .env 
+ 1823  ls
+ 1824  rm .env 
+ 1825  ls
+ 1826  php artisan october:install
+ 1827  ls
+ 1828  touch storage/database.sqlite
+ 1829  php artisan october:install
+ 1830  ls
+ 1831  php artisan
+ 1832  ls
+ 1833  chown nginx .
+ 1834  chown www-data .
+ 1835  chmod ls
+ 1836  chmod -R 775 .
+ 1837  php artisan 
+ 1838  php artisan serve
+ 1839  ls
+ 1840  php artisanoctober:install
+ 1841  php artisan october:install
+ 1842  composer update
+ 1843  php artisan october:util
+ 1844  php artisan october:util set project
+ 1845  php artisan october:util set build
+ 1846  ls
+ 1847  sudo php artisan october:install
+ 1848  php artisan october:up
+ 1849  php artisan october:env
+ 1850  micro .env
+ 1851  php artisan october:up
+ 1852  ls
+ 1853  cd storage/
+ 1854  ls
+ 1855  cd ..
+ 1856  ls
+ 1857  micro config/app.php 
+ 1858  micro config/cms.php 
+ 1859  cd config/
+ 1860  micro broadcasting.php 
+ 1861  micro database.php 
+ 1862  micro develop.php 
+ 1863  micro environment.php 
+ 1864  micro cookie.php 
+ 1865  micro cms.php 
+ 1866  micro broadcasting.php 
+ 1867  cd ..
+ 1868  rm .env 
+ 1869  ls
+ 1870  php artisan october:install
+ 1871  ls
+ 1872  rm storage/database.sqlite 
+ 1873  php artisan october:install
+ 1874  micro storage/database.sqlite 
+ 1875  php artisan october:install
+ 1876  sudo chown -R www-data:www-data .
+ 1877  rm storage/database.sqlite 
+ 1878  sudo usermod -a -G www-data ubuntu
+ 1879  sudo usermod -a -G www-data nginx
+ 1880  sudo usermod -a -G www-data satoshi
+ 1881  sudo usermod -a -G www-data root
+ 1882  sudo usermod -a -G www-data
+ 1883  php artisan october:install
+ 1884  ls
+ 1885  cd storage/
+ 1886  ls
+ 1887  rm database.sqlite 
+ 1888  cd ..
+ 1889  php artisan october:install
+ 1890  cd storage/
+ 1891  ls
+ 1892  cd ..
+ 1893  ls
+ 1894  php artisan october:up
+ 1895  ls
+ 1896  cd storage/
+ 1897  ls
+ 1898  micro database.sqlite 
+ 1899  cd ..
+ 1900  git add *
+ 1901  ls
+ 1902  micro .gitignore 
+ 1903  micro .env
+ 1904  php artisan october:env
+ 1905  micro .env
+ 1906  php artisan key:generate
+ 1907  rm .env
+ 1908  ls
+ 1909  php artisan october:env
+ 1910  micro .env 
+ 1911  ls
+ 1912  composer update
+ 1913  php artisan october:util 
+ 1914  php artisan october:util set project 0Zwx3AmNgZwH1ZGxjYGR0ATWxZmSyZmyxZQqvMTV1BQMwATL0AJLkMwSuZmL0
+ 1915  php artisan october:util set project
+ 1916  php artisan october:util set project --projectId=0Zwx3AmNgZwH1ZGxjYGR0ATWxZmSyZmyxZQqvMTV1BQMwATL0AJLkMwSuZmL0
+ 1917  ls
+ 1918  cd ..
+ 1919  cd /var/www/
+ 1920  ls
+ 1921  mkdir ride.rotko.net
+ 1922  ls
+ 1923  cd ride.rotko.net/
+ 1924  composer create-project october/october .
+ 1925  ls
+ 1926  cp -R /var/www/rotko.net/themes/rideco/ themes/
+ 1927  micro config/cms.php 
+ 1928  ls
+ 1929  cd /etc/nginx/conf.d/
+ 1930  ls
+ 1931  cat rotko.net
+ 1932  cat rotko.net.conf 
+ 1933  ls
+ 1934  micro pass.rotko.net.conf 
+ 1935  ls
+ 1936  micro /etc/nginx/conf.d/pass.rotko.net.conf 
+ 1937  ls
+ 1938  cat /etc/nginx/conf.d/rotko.net.conf 
+ 1939  micro /etc/nginx/conf.d/pass.rotko.net.conf 
+ 1940  cd /var/www/october/
+ 1941  php artisan 
+ 1942  php artisan october:mirror public
+ 1943  nginx -T
+ 1944  systemctl reload nginx
+ 1945  php artisan
+ 1946  php artisan theme:list
+ 1947  php artisan theme:use rideco
+ 1948  ls
+ 1949  php artisan theme:use rideco
+ 1950  php artisan theme:sync
+ 1951  ls
+ 1952  php artisan app:name
+ 1953  ls
+ 1954  php artisan
+ 1955  php artisan october:passwd
+ 1956  ls
+ 1957  micro .env
+ 1958  micro config/app.php 
+ 1959  ls
+ 1960  php artisan config:clear
+ 1961  micro .env 
+ 1962  ls
+ 1963  chown -R nginx:nginx storage/
+ 1964  php artisan
+ 1965  php artisan cache:clear
+ 1966  php artisan config:clear
+ 1967  php artisan october:up
+ 1968  php artisan october:fresh
+ 1969  php artisan october:up
+ 1970  php artisan october:update
+ 1971  ls
+ 1972  chmod +rw storage/
+ 1973  chmod +rw bootstrap/
+ 1974  php artisan october:up
+ 1975  chmod +rw .
+ 1976  chmod 775 .
+ 1977  php artisan cache:clear
+ 1978  php artisan config:clear
+ 1979  man chmod
+ 1980  chown -R www-data /storage
+ 1981  ls
+ 1982  chown -R www-data /storage
+ 1983  chown -R nginx /storage
+ 1984  ls
+ 1985  su nginx
+ 1986  su satoshi
+ 1987  chown -R www-data /storage
+ 1988  chown -R www-data /var/www/october/storage/
+ 1989  chown -R nginx /var/www/october/storage/
+ 1990  ls
+ 1991  cd var/www/
+ 1992  cd /var/www/october/
+ 1993  chmod 666 storage/database.sqlite
+ 1994  chown -R www-data:www-data .
+ 1995  chmod 666 storage/database.sqlite
+ 1996  find . -type d \( -path './plugins' -or  -path './storage' -or  -path './themes' -or  -path './plugins/*' -or  -path './storage/*' -or  -path './themes/*' \) -exec chmod g+ws {} \;
+ 1997  chown -R www-data:nginx .
+ 1998  chmod 666 storage/database.sqlite
+ 1999  find . -type d \( -path './plugins' -or  -path './storage' -or  -path './themes' -or  -path './plugins/*' -or  -path './storage/*' -or  -path './themes/*' \) -exec chmod g+ws {} \;
+ 2000  history
